@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="description" content="This is a great website">
+    <title>Gulalek Charyyeva</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <li><a href = "about">Gulalek Charyyeva</a></li>
+        <ul>
+          <li><a href = "research">Projects</a></li>
+          <li><a href = "cv">Resume</a></li>
+          <li><a href = "contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id = "about">
+        <div>
+          <img src = "photo.jpg" class = "profile-img">
+        </div>
+        <div class="section-inner">
+          <h2>Hello</h2>
+          <h3>About Me</h3>
+          <p>
+            My name is Gulalek Charyyeva. I am an undergradute CSE student at Ulsan National Institute of Science and Technology (UNIST), South Korea.
+            Currently, I am doing my research internship in Learning Intelligence Machines (LIM) Lab, advised by Prof. Sugnbin Lim.
+          </p>
+          <ul>
+            <li><a href="research" class="button1">Projects</a></li>
+            <li><a href="cv" class="button2">Resume</a></li>
+            <li><a href="contact" class="button3">Contact</a></li>
+          </ul
+        </div>
+      </section>
+
+      <section id = "research">
+        <div class="section-inner">
+          <h2>Research</h2>
+          <p>
+            This page will be updated soon.
+          </p>
+        </div>
+      </section>
+
+      <section id = "cv">
+        <h2>CV</h2>
+      </section>
+
+      <section id="contact">
+        <div class="social-links">
+          <h2>Contact Me</h2>
+          <p>You can find me on:</p>
+          <ul>
+            <li><a href = "https://github.com/charyyeva">Github</a></li>
+            <li><a href="https://www.instagram.com/gulalek__ch/" target="-blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/Gulalek Charyyeva/" target="-blank">Facebook</a></li>
+          </ul>
+          <p>Or, you can <a href="mailto:gulalekch@gmail.com">send me an email</a></p>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+  <footer>
+    GULALEK CHARYYEVA © 2023.
+    <!--
+    <nav>
+      <ul>
+        <li><a href = "https://github.com/charyyeva">Github</a></li>
+        <li><a href="https://www.instagram.com/ch_gulalek/" target="-blank">Instagram</a></li>
+        <li><a href="https://www.facebook.com/Gulalek Charyyeva/" target="-blank">Facebook</a></li>
+        <li><a href="mailto:gulalekch@gmail.com" target = "-blank">Gmail</a></li>
+      </ul>
+    </nav>
+    -->
+  </footer>
+</html>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+  body {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0F8FF
+  }
+
+  header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    line-height: 90px;
+    background-color: #F0F8FF;
+  }
+
+  header * {
+    display: inline;
+    height: 50px;
+  }
+
+  header ul {
+    padding: 0;
+  }
+
+  header li{
+    margin-left: 50px;
+  }
+
+  .button1{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 40px 30px;
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: 500
+    transition: all .4s ease-in-out;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+  }
+  .button1:hover{
+      background: transparent;
+      border-color: #fd4766;
+      color: #fd4766;
+  }
+  .button2{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 40px 30px;
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: 500
+    transition: all .4s ease-in-out;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+  }
+  .button2:hover{
+      background: transparent;
+      border-color: #fd4766;
+      color: #fd4766;
+  }
+  .button3{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 40px 30px;
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: 500
+    transition: all .4s ease-in-out;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+  }
+  .button3:hover{
+      background: transparent;
+      border-color: #fd4766;
+      color: #fd4766;
+  }
+
+
+
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #about .profile-img {
+    width: 400px;
+    border-radius: 50%;
+  }
+  footer {
+    text-align: right;
+    padding: 50px;
+  }
+
+  #about h1 {
+    font-size: 3em;
+  }
+
+  section h2 {
+    font-size: 2.5em;
+  }
+
+  section h3 {
+    font-size: 1.5em;
+  }
+
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+
+</style>
